@@ -1,74 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario</title>
-</head>
-<body>
-    <center>
-        <h1>Meu Primeiro Formulario</h1>
-        <p>Nome: <input type="text" name="nome" id="inome" placeholder="Digite seu Nome"></p>
-        <br>
-        <p>Sobrenome: <input type="text" name="sobrenome" id="isobrenome" placeholder="Digite seu Sobrenome"></p>
-        <p><input type="submit" value="Enviar"></p>
+<!DOCTYPE html><html><head>
+    <script src="library/p5.js"></script>
+    <script src="library/p5.dom.min.js"></script>
+    <script src="library/p5.sound.min.js"></script>
+<script src="library/p5.play.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+    
+  </head>
+  <body>
+      <script src="sketch.js"></script>
+  
 
-     <br><br>
-     <h1>Formulario de Validação</h1>
-     <fieldset>
-        <legend>Dados Pessoais</legend>
-        <form action="main.js" method="get">
-            <p><label for="inome">Nome: </label>
-            <input type="text" name="nome" id="inome" placeholder="Digite seu Nome" minlength="3" maxlength="40" required name="nome"></p>
-               
-            <p>
-               <label for="isobrenome">Sobrenome: </label>
-                <input type="text" name="sobrenome" id="isobrenome" placeholder="Digite seu Sobrenome" minlength="3" maxlength="40" required name="sobrenome">
-
-            </p>
-            <p>
-                <label for="icidade">Cidade: </label>
-                <input type="text" name="cidade" id="icidade" placeholder="Digite sua Cidade" minlength="3" maxlength="40" required name="cidade">
-        
-            </p>
-            
-            <p>
-                <label for="iendereço">Endereço: </label>
-                <input type="text" name="endereço" id="iendereço" placeholder="Digite seu Endereço" minlength="3" maxlength="40" required name="endereço">
-
-            </p>
-
-            <p>
-                <label for="iemail">Email: </label>
-                <input type="text" name="email" id="iemail" placeholder="Digite seu Email" minlength="3" maxlength="40" required name="email">
-                
-            </p>
-            
-            <p>
-                <label for="idata">Data de Nascimento: </label>
-                <input type="date" name="data" id="idata" placeholder="Digite sua Data" minlength="3" maxlength="40" required name="data">
-
-            </p>
-            
-            <p>
-                <label for="itelefone">Telefone: </label>
-                <input type="text" name="telefone" id="itelefone" placeholder="Digite seu Telefone" minlength="3" maxlength="40" required name="telefone">
-            </p>
-            <br>
-
-            <p><input type="submit" value="Enviar"></p>
-
-
-
-
-
-
-
-
-        </form>
-     </fieldset>
-
-
-    </center>
-</body>
-</html>
+</body></html>
